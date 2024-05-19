@@ -2,7 +2,7 @@
 
 ***
 
-<p align="center">Welcome to the Restaurant Management System project!</p>
+<p align="center">Welcome to the Interstellar Poster App project!</p>
 <p align="center">Interstellar is an Android application designed to provide users with detailed information about the movie "Interstellar" and facilitate ticket purchasing.</p>
 <p align="center">The app includes various fragments for displaying movie details, selecting tickets, and reviewing purchase information</strong></p>
 
@@ -62,6 +62,8 @@ With this setup, the application can perform the following operations:
 - <strong>ViewPagerAdapter:</strong> Adapter for the ViewPager2 to display movie images.
 
 ## 🌍 Language Support
+
+![11](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/b6547e50-cc3d-4442-b844-b0985eebab4c)
 
 - The Android app automatically opens in the language set on the user's phone, English or Hebrew.
 
