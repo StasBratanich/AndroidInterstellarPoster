@@ -38,8 +38,6 @@ With this setup, the application can perform the following operations:
 ***Exit Confirmation***
 - Display a confirmation dialog when attempting to exit the app.
 
-***
-
 ## ⚒ Project Structure
 
 ***Fragments***
@@ -54,6 +52,8 @@ With this setup, the application can perform the following operations:
 ## 🌍 Language Support
 
 - The Android app automatically opens in the language set on the user's phone, English or Hebrew.
+
+***
 
 ✉️ [bstasb@gmail.com](url)  
 💿 https://github.com/StasBratanich  
