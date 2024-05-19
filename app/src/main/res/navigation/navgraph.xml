@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/movieFragment">
+
+    <fragment
+        android:id="@+id/purchaseFragment"
+        android:name="com.example.interstellar.PurchaseFragment"
+        android:label="fragment_purchase"
+        tools:layout="@layout/fragment_purchase" >
+        <action
+            android:id="@+id/action_purchaseFragment_to_infoFragment"
+            app:destination="@id/infoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.example.interstellar.MovieFragment"
+        android:label="fragment_movie"
+        tools:layout="@layout/fragment_movie" >
+        <action
+            android:id="@+id/action_movieFragment_to_purchaseFragment"
+            app:destination="@id/purchaseFragment"
+            app:enterAnim="@anim/fade_in_anim"
+            app:exitAnim="@anim/fade_out_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.interstellar.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>

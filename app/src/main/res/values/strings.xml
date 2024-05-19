@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Interstellar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie_description">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, " +
+                "Joseph Cooper, is tasked to pilot a spacecraft, " +
+                "along with a team of researchers, to find a new planet for humans.</string>
+    <string name="movie_director">Christopher Nolan</string>
+    <string name="movie_stars">Matthew McConaughey, Anne Hathaway, Jessica Chastain</string>
+    <string name="get_tickets">Get Tickets</string>
+    <string name="adult_tickets">Adult Tickets</string>
+    <string name="child_tickets">Child Tickets</string>
+    <string-array name="cinema_options">
+        <item>Cinema City</item>
+        <item>Yes Planet</item>
+        <item>Hot Cinema</item>
+        <item>MovieLand</item>
+    </string-array>
+    <string name="choose_cinema">Choose Cinema</string>
+    <string name="director">Director :</string>
+    <string name="stars">Stars :</string>
+    <string name="parents_guide">PG-13</string>
+    <string name="movie_length">2h 49m</string>
+    <string name="imdb_score">8.7/10</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="buy_tickets">Buy Tickets</string>
+    <string name="adult45nis">Adult 45NIS</string>
+    <string name="child25nis">Child 25NIS</string>
+    <string name="exit">Exit</string>
+    <string name="exit_promp">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">Mo</string>
+    <string name="exit_confirmation">Exit Confirmation</string>
+    <string name="total_price">Total Price : </string>
+    <string name="time_prompt">Please select a future time</string>
+    <string name="purchase_prompt">Please select at least one ticket.</string>
+</resources>

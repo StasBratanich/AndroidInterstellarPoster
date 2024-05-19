@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".PurchaseFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#330F0778"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    app:cardBackgroundColor="#00FFFFFF"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        app:srcCompat="@drawable/image1" />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/purchaseFragment_Parentsguide"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:text="min age"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/purchaseFragment_MovieLength"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:text="length"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/purchaseFragment_ImdbRatinmg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingStart="10dp"
+                        android:paddingTop="5dp"
+                        android:text="IMDB 8.7/10"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/purchaseFragment_Adult45NIS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Adult 45 NIS"
+                    android:textColor="#FFFFFF" />
+
+                <Spinner
+                    android:id="@+id/purchaseFragment_AdultTicketPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/corner_radius"
+                    android:backgroundTint="@color/white"
+                    android:spinnerMode="dialog"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/purchaseFragment_Child25NIS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Child 25 NIS"
+                    android:textColor="#FFFFFF" />
+
+                <Spinner
+                    android:id="@+id/purchaseFragment_ChildTicketPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/corner_radius"
+                    android:backgroundTint="@color/white"
+                    android:spinnerMode="dialog"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/purchaseFragment_TextChooseCinema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Choose Cinema"
+            android:textColor="#FFFFFF" />
+
+        <Spinner
+            android:id="@+id/purchaseFragment_CinemaPicker"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/corner_radius"
+            android:backgroundTint="@color/white"
+            android:spinnerMode="dialog"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/purchaseFragment_TextChooseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Choose Date"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/purchaseFragment_DateBTN"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/purchaseFragment_TextChooseTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Choose Time"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/purchaseFragment_TimeBTN"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:text="Time"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/purchaseFragment_BuyBTN"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#330F0778"
+            android:text="Buy Tickets"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:icon="@drawable/baseline_check_circle_48"
+            app:iconGravity="start"
+            app:iconSize="48dp"
+            app:strokeColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

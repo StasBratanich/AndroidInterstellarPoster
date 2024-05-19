@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">בין כוכבים</string>
+    <string name="movie_description">כאשר כדור הארץ יהפוך לבלתי ראוי למגורים בעתיד, על חקלאי וטייס לשעבר של נאס\"א, ג\'וזף קופר, מוטלת המשימה להטיס חללית, יחד עם צוות חוקרים, כדי למצוא כוכב לכת חדש לבני אדם.</string>
+    <string name="movie_director">כריסטופר נולאן</string>
+    <string name="movie_stars">" מתיו מקונוהיי, אן האת'ווי, ג'סיקה צ'סטיין"</string>
+    <string name="get_tickets">לקניית כרטיסים</string>
+    <string name="adult_tickets">כרטיס מבוגר</string>
+    <string name="child_tickets">כרטיס ילד</string>
+    <string name="choose_cinema">בחר בית קולנוע</string>
+    <string name="director">במאי :</string>
+    <string name="stars">כוכבים :</string>
+    <string name="parents_guide">מעל-13</string>
+    <string name="movie_length">2ש 49ד</string>
+    <string name="imdb_score">8.7/10</string>
+    <string name="choose_date">בחר תאריך</string>
+    <string name="choose_time">בחר זמן</string>
+    <string-array name="cinema_options">
+        <item>סינמה סיטי</item>
+        <item>יס פלאנט</item>
+        <item>הוט סינמה</item>
+        <item>מובילנד</item>
+    </string-array>
+    <string name="buy_tickets">קנה כרטיסים</string>
+    <string name="adult45nis">מבוגר 45 ש"ח</string>
+    <string name="child25nis">ילד 25 ש"ח</string>
+    <string name="exit">יציאה</string>
+    <string name="exit_promp">האם אתה בטוח שברצונך לצאת?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="exit_confirmation">אישור יציאה</string>
+    <string name="total_price">סה"כ מחיר : </string>
+    <string name="time_prompt">אנא בחר בזמן עתיד</string>
+    <string name="purchase_prompt">אנא בחר לפחות כרטיס אחד</string>
+</resources>

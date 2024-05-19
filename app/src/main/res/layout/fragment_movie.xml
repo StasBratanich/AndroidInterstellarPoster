@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MovieFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TextView_Interstellar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Movie Name"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="5dp" />
+
+    <me.relex.circleindicator.CircleIndicator3
+        android:id="@+id/CircleIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </me.relex.circleindicator.CircleIndicator3>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/FragmentMovie_Director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Director :"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/moviedirector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="5dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/FragmentMovie_Stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stars :"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/movieStars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="5dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="#B3000000"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/TextView_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Description"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/Button_GetTickets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="5dp"
+            android:backgroundTint="#B3FFFFFF"
+            android:gravity="center"
+            android:text="Button"
+            android:textColor="#000000" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
