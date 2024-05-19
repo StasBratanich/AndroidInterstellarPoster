@@ -8,6 +8,13 @@
 
 ***
 
+## ℹ️ Overview
+
+The Interstellar Poster Android App is designed to provide users with detailed movie information, facilitate ticket purchases, and display purchase information.
+Users can explore movie details such as descriptions, director, stars, and movie length. Additionally, they can select the number of adult and child tickets, choose a cinema, and pick a date and time for the movie.
+The app also allows users to review their selected tickets and movie details before confirming the purchase, providing a seamless experience for movie enthusiasts and ticket buyers.
+
+
 ## 🌟 Highlights
 
 ***Movie Details***
