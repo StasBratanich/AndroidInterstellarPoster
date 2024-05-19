@@ -2,8 +2,8 @@
 
 ***
 
-<p align="center">Welcome to the Interstellar Poster App project!</p>
-<p align="center">Interstellar is an Android application designed to provide users with detailed information about the movie "Interstellar" and facilitate ticket purchasing.</p>
+<p align="center">Welcome to the Interstellar Android Poster App project!</p>
+<p align="center">Android application designed to provide users with detailed information about the movie "Interstellar" and facilitate ticket purchasing.</p>
 <p align="center">The app includes various fragments for displaying movie details, selecting tickets, and reviewing purchase information</strong></p>
 
 ***
