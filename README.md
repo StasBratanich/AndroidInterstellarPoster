@@ -39,9 +39,14 @@ With this setup, the application can perform the following operations:
 ![3](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/4a824aa6-6b76-4966-888c-5867e422ae89)
 
 ***Review Purchase***
+
+![4](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/8f19dffb-a319-4d06-a56a-586f56007e2c)
+
 - Review selected tickets and movie details before confirming the purchase.
 
 ***Exit Confirmation***
+
+![5](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/30761cbf-1e57-414c-938c-b10ada5ad818)
 
 - Display a confirmation dialog when attempting to exit the app.
 
