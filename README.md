@@ -20,10 +20,8 @@ The app also allows users to review their selected tickets and movie details bef
 ## 🌟 Highlights
 
 ***Movie Details***
-
-![1](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/a6c9d3b5-5c58-4114-9c31-392d86b955b8)
-
 - View details about the movie "Interstellar" including description, director, stars, and movie length.
+![1](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/a6c9d3b5-5c58-4114-9c31-392d86b955b8)
 
 ***Image Carousel***
 - Swipe through multiple images related to the movie using a ViewPager2 with a CircleIndicator3 for position indication.
