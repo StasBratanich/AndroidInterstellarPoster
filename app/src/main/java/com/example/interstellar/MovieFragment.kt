@@ -1,4 +1,4 @@
-// MovieFragment.kt
+package com.example.interstellar// com.example.interstellar.MovieFragment.kt
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -35,11 +35,19 @@ class MovieFragment : Fragment() {
         directorTextView.setText(R.string.director)
         starsTextView.setText(R.string.stars)
 
+        val movieDirector: TextView = view.findViewById(R.id.moviedirector)
+        movieDirector.text = getString(R.string.movie_director)
+
+        val movieStars: TextView = view.findViewById(R.id.movieStars)
+        movieStars.text = getString(R.string.movie_stars)
+
         loadImages()
         viewPager2.adapter = ViewPagerAdapter(imagesList)
 
         val indicator: CircleIndicator3 = view.findViewById(R.id.CircleIndicator)
         indicator.setViewPager(viewPager2)
+
+        getTicketsBTN.text = getString(R.string.buy_tickets)
 
         getTicketsBTN.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_movieFragment_to_purchaseFragment)
