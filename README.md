@@ -36,13 +36,12 @@ With this setup, the application can perform the following operations:
 
 - Select the number of adult and child tickets, choose a cinema, and pick a date and time for the movie.
 
+![3](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/4a824aa6-6b76-4966-888c-5867e422ae89)
+
 ***Review Purchase***
 - Review selected tickets and movie details before confirming the purchase.
 
-
 ***Exit Confirmation***
-
-![3](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/4a824aa6-6b76-4966-888c-5867e422ae89)
 
 - Display a confirmation dialog when attempting to exit the app.
 
