@@ -22,20 +22,28 @@ With this setup, the application can perform the following operations:
 ## 🌟 Highlights
 
 ***Movie Details***
+
+![1](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/a6c9d3b5-5c58-4114-9c31-392d86b955b8)
+
 - View details about the movie "Interstellar" including description, director, stars, and movie length.
 
 ***Image Carousel***
 - Swipe through multiple images related to the movie using a ViewPager2 with a CircleIndicator3 for position indication.
 
 ***Ticket Purchase***
-- Select the number of adult and child tickets, choose a cinema, and pick a date and time for the movie.
 
+![2](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/e40a88a6-3033-48d1-bddd-7b23c297ad8e)
+
+- Select the number of adult and child tickets, choose a cinema, and pick a date and time for the movie.
 
 ***Review Purchase***
 - Review selected tickets and movie details before confirming the purchase.
 
 
 ***Exit Confirmation***
+
+![3](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/4a824aa6-6b76-4966-888c-5867e422ae89)
+
 - Display a confirmation dialog when attempting to exit the app.
 
 ## ⚒ Project Structure
