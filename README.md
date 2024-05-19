@@ -21,6 +21,7 @@ The app also allows users to review their selected tickets and movie details bef
 
 ***Movie Details***
 - View details about the movie "Interstellar" including description, director, stars, and movie length.
+
 ![1](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/a6c9d3b5-5c58-4114-9c31-392d86b955b8)
 
 ***Image Carousel***
@@ -36,15 +37,15 @@ The app also allows users to review their selected tickets and movie details bef
 
 ***Review Purchase***
 
-![4](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/8f19dffb-a319-4d06-a56a-586f56007e2c)
-
 - Review selected tickets and movie details before confirming the purchase.
+
+![4](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/8f19dffb-a319-4d06-a56a-586f56007e2c)
 
 ***Exit Confirmation***
 
-![5](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/30761cbf-1e57-414c-938c-b10ada5ad818)
-
 - Display a confirmation dialog when attempting to exit the app.
+
+![5](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/30761cbf-1e57-414c-938c-b10ada5ad818)
 
 ## ⚒ Project Structure
 
