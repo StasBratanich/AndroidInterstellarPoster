@@ -21,34 +21,35 @@ The app also allows users to review their selected tickets and movie details bef
 
 ***Movie Details***
 - View details about the movie "Interstellar" including description, director, stars, and movie length.
-- 
-![1](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/a6bb5f8b-4696-41d2-98de-93a3b852f98d)
+
+![1](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/c2a66506-ef85-47b0-b45e-5d6d5ba2bf4a)
 
 ***Image Carousel***
 - Swipe through multiple images related to the movie using a ViewPager2 with a CircleIndicator3 for position indication.
 
 ***Ticket Purchase***
 
-![2](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/ee75dc33-4e37-41a0-a9cc-a08764d3c021)
+![2](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/3deba3bc-9c19-492b-8d09-3e48bde718c2)
 
 - Select the number of adult and child tickets, choose a cinema, and pick a date and time for the movie.
+- 
+![3](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/b8695380-01c8-404c-b03d-1e15f0f9d860)
 
-![3](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/480d613d-8d54-4076-9b00-a58fe7d48a07)
+![4](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/08b933fb-7079-4823-93c8-b24fec0ae63d)
 
-![4](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/09ccf8f4-c3dc-424e-a5fd-f3ef7f25b4fb)
-
-![6](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/f4f0884a-98f3-4060-9c40-90ccd0feccaa)
+![5](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/d8bfb4e6-fb80-4a96-ae99-bfc36082f36a)
 
 ***Review Purchase***
 
 - Review selected tickets and movie details before confirming the purchase.
-
-![5](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/f17e1125-e2ae-4b36-b4f6-4cfb666da377)
+- 
+![6](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/bfc87108-8e5f-413b-a734-42cba87903a0)
 
 ***Exit Confirmation***
 
 - Display a confirmation dialog when attempting to exit the app.
 
+![7](https://github.com/StasBratanich/AndroidInterstellarPoster/assets/83605505/02871287-37e6-4f29-8719-650f7463e2d4)
 
 ## ⚒ Project Structure
 
